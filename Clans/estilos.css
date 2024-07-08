@@ -1,0 +1,755 @@
+@import  url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+ 
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 12;
+  padding: 0;
+  overflow: none;
+  border-radius: 10px 10px 0px 0px;
+}
+
+li {
+  float: left;
+  font-size: 26.5px;
+  font-weight: 100;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:#C2FEFF;
+  text-align: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #515ae6;
+}
+
+ 
+
+
+#Amoeba {
+    border-width: 1111p;
+    border-radius: 100px;
+    border-color: black;
+    display: block;
+    margin: 0 auto;
+   
+}
+body {
+     background: linear-gradient(
+         to bottom,
+         rgb(163, 141, 141) 0%,
+         rgba(175, 135, 124, 1) 65%,
+         rgba(175, 135, 124, 1) 100%
+       )
+       fixed;
+     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg");
+     font: 14px/20px "Lato", Arial, sans-serif;
+
+
+     
+   }
+  
+ #Secção {
+    color: rgb(73, 70, 67);
+ }
+ .Titulo {
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#C2FEFF;
+    text-align: center;
+ }
+.button {
+  background-image: url(file:///C:/Users/crobe/OneDrive/Documentos/Clash/img/PEKKA.gif);
+   width: 200px;
+   height: 200px;
+   background-size: 100%;
+   
+ }
+ .T {
+   font-size: 25px;
+   font-weight: 100px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(223, 219, 219);
+}
+.HEAD {
+      font-size: 50px;
+      font-weight: 50px;
+      font-family: sans-serif;
+      color: rgb(73, 70, 61);
+}
+.Central {
+   font-size: 30px;
+   font-weight: 100;
+   font-family: Arial, Helvetica, sans-serif;
+   color: #c6fbfd;
+   text-align: center;
+}     
+.central {
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #d8feff;
+   text-align: center;
+}   
+.centarl {
+  font-family: "Reddit Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #181818;
+   text-align: center;
+}           
+.evocard {
+   color: #F893F9;
+   font-size: 50px;
+   font-weight: 100px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-align: center;
+}
+.secção {
+   font-size: 25px;
+   font-weight: 100px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: rgb(75, 40, 40);
+   text-align: center;
+
+}
+#deck {
+   width: 500px;
+   height: 500px; 
+      display: block;
+      margin: 0 auto;
+}
+.d {
+  border-width: 1111p;
+  border-radius: 100px;
+  text-align: center;
+  border-color: black;
+  display: block;
+  
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+
+}
+.link {
+   font-size: 40px;
+   font-weight: 50px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: rgb(104, 134, 187);
+   text-align: center;
+}
+#pancakes {
+
+   background-image: linear-gradient(to top, black,#ED8E4E,#ECAA57,#DCC585,#B64A07);
+
+
+
+}
+#mini {
+   border-width: 1111p;
+   border-radius: 100px;
+   text-align: center;
+   border-color: black;
+   display: block;
+   margin: 0 auto;
+   height: 500px;
+   width: 500px;
+   
+}
+
+.campeão {
+   background-image: linear-gradient(to top,black ,#3d4117, #838a38, #c3d461, #c7d47c, #8ea50b);
+}
+
+#boto {
+   border-width: 1111p;
+    border-radius: 100px;
+    border-color: black;
+    display: block;
+    margin: 0 auto;
+   
+}
+a:visited {
+   color: rgb(248, 248, 248);
+   text-decoration: none;
+ }
+ a {
+  text-decoration: none;
+  color: #2043a5;
+ }
+ .slide-container {
+   margin: auto;
+   width: 600px;
+   text-align: center;
+ }
+ 
+ .wrapper {
+   padding-top: 40px;
+   padding-bottom: 40px;
+ 
+   &:focus {
+     outline: 0;
+   }
+ }
+ 
+ .clash-card {
+     position: relative;
+     text-align: center;
+   box-shadow: -1px 15px 30px -12px black;
+   z-index: 9999;
+   background: white;
+   width: 300px;
+   display: inline-block;
+   margin: auto;
+   border-radius: 10px;
+  
+ 
+ }
+ 
+ .clash-card__image {
+     border-top-right-radius: 10px;
+   position: relative;
+   height: 230px;
+   margin-bottom: 35px;
+   border-top-left-radius: 10px;
+ 
+ }
+ 
+ .clash-card__image--barbarian {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian-bg.jpg");
+   img {
+     width: 400px;
+     position: absolute;
+     top: -65px;
+     left: -70px;
+   }
+ }
+ 
+ .clash-card__image--archer {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer-bg.jpg");
+   img {
+     width: 400px;
+     position: absolute;
+     top: -34px;
+     left: -37px;
+   }
+ }
+ 
+ .clash-card__image--giant {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/giant-bg.jpg");
+   img {
+     width: 340px;
+     position: absolute;
+     top: -30px;
+     left: -25px;
+   }
+ }
+ 
+ .clash-card__image--goblin {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/goblin-bg.jpg");
+   text-align: center;
+   img {
+     width: 150px;
+     position: absolute;
+     top: -21px;
+     left: -37px;
+ 
+   }   }
+ 
+ .clash-card__image--wizard {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+   img {
+     width: 345px;
+     position: absolute;
+     top: -28px;
+     left: -10px;
+   }
+ }
+ .clash-card__image--dragon {
+     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+     img {
+       width: 260px;
+       position: absolute;
+       top: -28px;
+       left: -10px;
+     }
+   }
+   .clash-card__image--pekka {
+     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+     img {
+       width: 260px;
+       position: absolute;
+       top: -28px;
+       left: -10px;
+     }
+   }
+ .clash-card__image--ballon {
+     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+     img {
+       width: 300px;
+       position: absolute;
+       top: -28px;
+       left: -10px;
+     }
+   }
+ .clash-card__image--wallbreaker {
+     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+     img {
+       width: 345px;
+       position: absolute;
+       top: -28px;
+       left: -10px;
+     }
+ }
+ .clash-card__image--healer {
+     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+     img {
+       width: 310px;
+       position: absolute;
+       top: -28px;
+       left: -10px;
+     }
+ }
+ .clash-card__image--baby {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+   img {
+     width: 310px;
+     position: absolute;
+     top: -28px;
+     left: -10px;
+   }
+ }
+ .clash-card__image--minner {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+   img {
+     width: 310px;
+     position: absolute;
+     top: -28px;
+     left: -10px;
+   }
+ }
+ .clash-card__image--eletrodragon {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+   img {
+     width: 280px;
+     position: absolute;
+     top: -28px;
+     left: -10px;
+   }
+ }
+ .clash-card__image--yeti {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+   img {
+     width: 280px;
+     position: absolute;
+     top: -28px;
+     left: -10px;
+   }
+ }
+ .clash-card__image--dragonrider {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+   img {
+     width: 400px;
+     position: absolute;
+     top: -28px;
+     left: -10px;
+   }
+ }
+ .clash-card__image--eletrotitan {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+   img {
+     width: 270px;
+     position: absolute;
+     top: -28px;
+     left: -10px;
+   }
+ }
+ .clash-card__image--rootrider {
+   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard-bg.jpg");
+   img {
+     width: 320px;
+     position: absolute;
+     top: -28px;
+     left: -10px;
+   }
+ }
+ .clash-card__level {
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: 700;
+   margin-bottom: 3px;
+ }
+ 
+ .clash-card__level--barbarian {
+   color: barbarian;
+ }
+ 
+ .clash-card__level--archer {
+   color: archer;
+ }
+ .clash-card__level--dragon {
+     color: dragon;
+   }
+ .clash-card__level--giant {
+   color: gigant;
+ }
+ .clash-card__level--pekka {
+     color: pekka;
+   }
+   .clash-card__level--eletrodragon {
+     color: eletrodragon;
+   }
+ .clash-card__level--goblin {
+   color: goblin;
+ }
+ 
+ .clash-card__level--wizard {
+   color: wizard;
+ }
+ .clash-card__level--healer {
+     color: wizard;
+   }
+   .clash-card__level--minner {
+     color: minner;
+   }
+   .clash-card__level--dragonrider {
+     color: dragonrider;
+   }
+ .clash-card__level--wallbreaker {
+     color: wallbreaker;
+ }
+ .clash-card__level--ballon {
+     color: ballon;
+ }
+ .clash-card__level--baby {
+   color: baby;
+ }
+ .clash-card__level--yeti {
+   color: baby;
+ }
+ .clash-card__unit-name {
+   font-size: 26px;
+   color: black;
+   font-weight: 900;
+   margin-bottom: 5px;
+ }
+ 
+ .clash-card__unit-description {
+   padding: 20px;
+   margin-bottom: 10px;
+ }
+ 
+ .clash-card__unit-stats--barbarian {
+   background: #bd7c2f;
+ 
+ 
+   .one-third {
+     border-right: 1px solid #bd7c2f;
+     
+ }
+ }
+ .clash-card__unit-stats--pekka {
+     background: #7300df;
+   
+   
+     .one-third {
+       border-right: 1px solid #7300df;
+       
+   }
+   }
+   .clash-card__unit-stats--yeti {
+     background: #713da1;
+   
+   
+     .one-third {
+       border-right: 1px solid #713da1;
+       
+   }
+   }
+   .clash-card__unit-stats--dragonrider {
+     background: #3b1f09;
+   
+   
+     .one-third {
+       border-right: 1px solid #3b1f09;
+       
+   }
+   }
+   .clash-card__unit-stats--baby {
+     background: #019401;
+   
+   
+     .one-third {
+       border-right: 1px solid #019401;
+       
+   }
+   }
+ .clash-card__unit-stats--dragon {
+     background: #211353;
+   
+   
+     .one-third {
+       border-right: 1px solid #211353;
+       
+   }
+   }
+   .clash-card__unit-stats--minner {
+     background: #381101;
+   
+   
+     .one-third {
+       border-right: 1px solid #381101;
+       
+   }
+   }
+   .clash-card__unit-stats--rootrider {
+     background: #381101;
+   
+   
+     .one-third {
+       border-right: 1px solid #381101;
+       
+   }
+   }
+   .clash-card__unit-stats--eletrodragon {
+     background: #58c8e4;
+   
+   
+     .one-third {
+       border-right: 1px solid #58c8e4;
+       
+   }
+   }
+   .clash-card__unit-stats--eletrotitan {
+     background: #97e2f5;
+   
+   
+     .one-third {
+       border-right: 1px solid #97e2f5;
+       
+   }
+   }
+ .clash-card__unit-stats--ballon {
+     background: #660f09;
+   
+   
+     .one-third {
+       border-right: 1px solid #660f09;
+       
+   }
+   }
+ .clash-card__unit-stats--archer {
+   background:  #d04976;
+ border-radius: 0px 0px 20px 20px;
+   .one-third {
+    
+     border-right: 1px solid #d04976;
+   }
+ }
+ .clash-card__unit-stats--healer {
+     background:  #9dbe72;
+   border-radius: 0px 0px 20px 20px;
+     .one-third {
+      
+       border-right: 1px solid #9dbe72;
+     }
+   }
+ 
+ .clash-card__unit-stats--giant {
+   background:  #743800;
+ 
+   .one-third {
+     border-right: 1px solid darken #743800;
+   }
+ }
+ 
+ .clash-card__unit-stats--goblin {
+   background: #045021;
+ 
+   .one-third {
+     border-right: 1px solid #045021;
+   }
+ }
+ 
+ .clash-card__unit-stats--wizard {
+   background: #2043a5;
+ 
+   .one-third {
+     border-right: 1px solid 
+     #2043a5
+   }
+ }
+ .clash-card__unit-stats--wallbreaker {
+     background: #302502;
+   
+     .one-third {
+       border-right: 1px solid 
+       #302502
+     }
+   }
+ .clash-card__unit-stats {
+   color: white;
+   font-weight: 700;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+ 
+   .one-third {
+     width: 33%;
+     float: left;
+     padding: 20px 15px;
+   }
+ 
+   sup {
+     position: absolute;
+     bottom: 4px;
+     font-size: 45%;
+     margin-left: 2px;
+   }
+ 
+   .stat {
+     position: relative;
+     font-size: 24px;
+     margin-bottom: 10px;
+   }
+ 
+   .stat-value {
+     text-transform: uppercase;
+     font-weight: 400;
+     font-size: 12px;
+   }
+ 
+   .no-border {
+     border-right: none;
+   }
+ }
+ 
+ .clearfix:after {
+   visibility: hidden;
+   display: block;
+   font-size: 0;
+   content: " ";
+   clear: both;
+   height: 0;
+ }
+ 
+ .slick-prev {
+   left: 100px;
+   z-index: 999;
+ }
+ 
+ .slick-next {
+   right: 100px;
+   z-index: 999;
+ }
+ *{
+   box-sizing: border-box;
+
+ }
+.gallery-wrapper {
+overflow-x: auto;
+
+
+}
+
+.gallery {
+display: flex;
+flex-flow: row nowrap ;
+gap: 15px;
+}
+
+.container {
+   position: relative;
+   padding: 15px;
+   max-width: 640px;
+   margin: 0 auto;
+}
+.arrow-left{
+  position: absolute;
+ top: 0;
+ left: 0px;
+ right: auto;
+ bottom: 0;
+ line-height: 250px;
+font-size: 20px;
+width: 25px;
+text-align: center;
+color: #fff;
+border: none;
+background: linear-gradient(to left, transparent 0%, black 200%);
+cursor: pointer;
+
+opacity: 0.1;
+transition: all 600ms ease-in-out
+
+ }
+.arrow-rigth{
+ position: absolute;
+top: 0;
+left: 620;
+right: 0;
+bottom: 0;
+line-height: 250px;
+font-size: 20px;
+width: 25px;
+text-align: center;
+color: #fff;
+border: none;
+background: linear-gradient(to right, transparent 0%, black 200%);
+cursor: pointer;
+opacity: 0.1;
+transition: all 600ms ease-in-out;
+}
+img{
+   object-fit: cover;
+   height: 500px;
+   width: 500px;
+}
+#corpo {
+  background: linear-gradient(
+         to bottom,
+         rgba(140, 122, 122, 1) 0%,
+         rgba(175, 135, 124, 1) 65%,
+         rgba(175, 135, 124, 1) 100%
+       )
+       fixed;
+     background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/coc-background.jpg")
+       no-repeat center center fixed;
+     background-size: cover;
+    
+
+}
+.arrow-left:hover,
+.arrow-rigth:hover {
+opacity: 1;
+
+}
+.item{
+width: 250px;
+height: 250px;
+flex-shrink: 0;
+opacity: 0.6;
+transition: all 600ms ease-in-out;
+}
+.current-item{
+  opacity: 1;
+}
+.gallery-wrapper::-webkit-scrollbar{
+
+display: none;
+
+}
+
