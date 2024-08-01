@@ -15,6 +15,17 @@ ul {
   border-radius: 10px 10px 0px 0px;
 }
 
+ul > li >a{
+  background-color: rgb(168, 28, 168);
+  border-radius: 20px 20px 30px 30px;
+}
+
+ul > li > a:hover{
+  background-color: #9D5796;
+  color: #211353;
+  transition-duration: 0.6s;
+}
+
 li {
   float: left;
   font-size: 26.5px;
